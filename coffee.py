@@ -82,5 +82,5 @@ if __name__ == "__main__":
     mycoffee = Coffee("Expresso")
     client_code(mycoffee)
 
-    mycoffee = ChocolateDecorator(DiscountDecorator(SoyDecorator(mycoffee), 0))
+    mycoffee = ChocolateDecorator(DiscountDecorator(SoyDecorator(mycoffee), 10))
     client_code(mycoffee)
